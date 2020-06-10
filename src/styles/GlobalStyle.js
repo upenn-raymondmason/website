@@ -50,7 +50,7 @@ const GlobalStyle = createGlobalStyle`
   }
 
   ::selection {
-    background-color: ${colors.slate};
+    background-color: ${colors.navy};
     color: ${colors.lightestSlate};
   }
 
@@ -230,7 +230,7 @@ const GlobalStyle = createGlobalStyle`
   }
 
   .subtitle {
-    color: ${colors.green};
+    color: ${colors.slate};
     margin: 0 0 20px 0;
     font-size: ${fontSizes.md};
     font-family: ${fonts.SFMono};

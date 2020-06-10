@@ -43,17 +43,17 @@ const mixins = {
     position: relative;
     transition: ${theme.transition};
     cursor: pointer;
-    color: ${colors.green};
+    color: ${colors.lightSlate};
     &:hover,
     &:focus,
     &:active {
-      color: ${colors.green};
+      color: ${colors.white};
       outline: 0;
       &:after {
         width: 100%;
       }
       & > * {
-        color: ${colors.green} !important;
+        color: ${colors.white} !important;
         transition: ${theme.transition};
       }
     }
@@ -93,9 +93,9 @@ const mixins = {
   `,
 
   bigButton: css`
-    color: ${colors.green};
+    color: ${colors.slate};
     background-color: transparent;
-    border: 1px solid ${colors.green};
+    border: 1px solid ${colors.slate};
     border-radius: ${theme.borderRadius};
     padding: 1.25rem 1.75rem;
     font-size: ${fontSizes.sm};
@@ -107,7 +107,8 @@ const mixins = {
     &:hover,
     &:focus,
     &:active {
-      background-color: ${colors.transGreen};
+      background-color: ${colors.slate};
+      color: ${colors.lightWhite};
     }
     &:after {
       display: none !important;

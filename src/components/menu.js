@@ -28,7 +28,7 @@ const Sidebar = styled.aside`
   padding: 50px;
   width: 50vw;
   height: 100%;
-  position: relative;
+  position: fixed;
   right: 0;
   margin-left: auto;
   font-family: ${fonts.SFMono};

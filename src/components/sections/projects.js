@@ -26,6 +26,7 @@ const StyledArchiveLink = styled(Link)`
   ${mixins.inlineLink};
   text-align: center;
   margin: 0 auto;
+  color: ${colors.lightWhite}
   font-family: ${fonts.SFMono};
   font-size: ${fontSizes.sm};
   &:after {
@@ -71,7 +72,7 @@ const StyledProjectHeader = styled.div`
   margin-bottom: 30px;
 `;
 const StyledFolder = styled.div`
-  color: ${colors.green};
+  color: ${colors.white};
   svg {
     width: 40px;
     height: 40px;
@@ -79,7 +80,7 @@ const StyledFolder = styled.div`
 `;
 const StyledProjectLinks = styled.div`
   margin-right: -10px;
-  color: ${colors.lightSlate};
+  color: ${colors.white};
 `;
 const StyledIconLink = styled.a`
   position: relative;
@@ -93,11 +94,11 @@ const StyledIconLink = styled.a`
 const StyledProjectName = styled.h5`
   margin: 0 0 10px;
   font-size: ${fontSizes.xxl};
-  color: ${colors.lightestSlate};
+  color: ${colors.white};
 `;
 const StyledProjectDescription = styled.div`
   font-size: 17px;
-  color: ${colors.lightSlate};
+  color: ${colors.lightWhite};
   a {
     ${mixins.inlineLink};
   }
@@ -114,7 +115,7 @@ const StyledTechList = styled.ul`
   li {
     font-family: ${fonts.SFMono};
     font-size: ${fontSizes.xs};
-    color: ${colors.slate};
+    color: ${colors.lightSlate};
     line-height: 1.75;
     margin-right: 15px;
     &:last-of-type {

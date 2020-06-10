@@ -49,68 +49,69 @@ const Skill = styled.li`
 `;
 const StyledPic = styled.div`
   position: relative;
-  width: 40%;
-  max-width: 300px;
+  width: 60%;
+  max-width: 400px;
   margin-left: 60px;
-  ${media.tablet`margin: 60px auto 0;`};
-  ${media.phablet`width: 70%;`};
   a {
     &:focus {
       outline: 0;
     }
   }
 `;
+// ${media.tablet`margin: 60px auto 0;`};
+//${media.phablet`width: 70%;`};
 const StyledAvatar = styled(Img)`
   position: relative;
   mix-blend-mode: multiply;
-  filter: grayscale(100%) contrast(1);
   border-radius: ${theme.borderRadius};
   transition: ${theme.transition};
 `;
+// filter: grayscale(100%) contrast(1);
 const StyledAvatarLink = styled.a`
   ${mixins.boxShadow};
   width: 100%;
   position: relative;
   border-radius: ${theme.borderRadius};
-  background-color: ${colors.green};
+  background-color: ${colors.navy};
   margin-left: -20px;
-  &:hover,
-  &:focus {
-    background: transparent;
-    &:after {
-      top: 15px;
-      left: 15px;
-    }
-    ${StyledAvatar} {
-      filter: none;
-      mix-blend-mode: normal;
-    }
-  }
-  &:before,
-  &:after {
-    content: '';
-    display: block;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    border-radius: ${theme.borderRadius};
-    transition: ${theme.transition};
-  }
-  &:before {
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: ${colors.navy};
-    mix-blend-mode: screen;
-  }
-  &:after {
-    border: 2px solid ${colors.green};
-    top: 20px;
-    left: 20px;
-    z-index: -1;
-  }
 `;
+
+// &:hover,
+// &:focus {
+//   background: transparent;
+//   &:after {
+//     top: 15px;
+//     left: 15px;
+//   }
+//   ${StyledAvatar} {
+//     filter: none;
+//     mix-blend-mode: normal;
+//   }
+// }
+// &:before,
+// &:after {
+//   content: '';
+//   display: block;
+//   position: absolute;
+//   width: 100%;
+//   height: 100%;
+//   border-radius: ${theme.borderRadius};
+//   transition: ${theme.transition};
+// }
+// &:before {
+//   top: 0;
+//   left: 0;
+//   right: 0;
+//   bottom: 0;
+//   background-color: ${colors.navy};
+//   mix-blend-mode: screen;
+// }
+// &:after {
+//   border: 2px solid ${colors.green};
+//   top: 20px;
+//   left: 20px;
+//   z-index: -1;
+// }
 
 const About = ({ data }) => {
   const { frontmatter, html } = data[0].node;

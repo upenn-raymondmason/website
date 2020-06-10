@@ -12,6 +12,7 @@ const StyledContainer = styled(Section)`
   margin: 0 auto 100px;
   a {
     ${mixins.inlineLink};
+    color: ${colors.slate};
   }
 `;
 const StyledHeading = styled(Heading)`
