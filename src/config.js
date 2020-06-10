@@ -1,22 +1,20 @@
 module.exports = {
-  siteTitle: 'Brittany Chiang | Software Engineer',
-  siteDescription:
-    'Brittany Chiang is a software engineer based in Boston, MA who specializes in building (and occasionally designing) exceptional websites, applications, and everything in between.',
-  siteKeywords:
-    'Brittany Chiang, Brittany, Chiang, bchiang7, software engineer, front-end engineer, web developer, javascript, northeastern',
-  siteUrl: 'https://brittanychiang.com',
+  siteTitle: 'Kevin Xu | Software Engineer',
+  siteDescription: 'Kevin Xu Description',
+  siteKeywords: 'Kevin Xu',
+  siteUrl: 'https://unruffled-almeida-425fec.netlify.app/#jobs',
   siteLanguage: 'en_US',
-  googleAnalyticsID: 'UA-45666519-2',
-  googleVerification: 'DCl7VAf9tcz6eD9gb67NfkNnJ1PKRNcg8qQiwpbx9Lk',
-  name: 'Brittany Chiang',
-  location: 'Boston, MA',
-  email: 'brittany.chiang@gmail.com',
-  github: 'https://github.com/bchiang7',
+  googleAnalyticsID: 'test',
+  googleVerification: 'test',
+  name: 'Kevin Xu',
+  location: 'Sunnyvale, CA',
+  email: 'xukevinwork@gmail.com',
+  github: 'https://github.com/kevinxu12',
   twitterHandle: '@bchiang7',
   socialMedia: [
     {
       name: 'GitHub',
-      url: 'https://github.com/bchiang7',
+      url: 'https://github.com/kevinxu12',
     },
     {
       name: 'Linkedin',
@@ -59,8 +57,8 @@ module.exports = {
 
   colors: {
     green: '#64ffda',
-    navy: '#0a192f',
-    darkNavy: '#020c1b',
+    navy: '#FFFFFF',
+    darkNavy: '#FFFFFF',
   },
 
   srConfig: (delay = 200) => ({
