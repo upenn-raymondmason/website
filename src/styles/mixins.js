@@ -43,17 +43,19 @@ const mixins = {
     position: relative;
     transition: ${theme.transition};
     cursor: pointer;
-    color: ${colors.lightSlate};
+    color: ${colors.brightGreen};
     &:hover,
     &:focus,
     &:active {
-      color: ${colors.white};
+      color: ${colors.brightGreen};
+      background-color: ${colors.lightNavy};
+      padding: 5px;
       outline: 0;
       &:after {
         width: 100%;
       }
       & > * {
-        color: ${colors.white} !important;
+        color: ${colors.brightGreen} !important;
         transition: ${theme.transition};
       }
     }
@@ -64,7 +66,7 @@ const mixins = {
       height: 1px;
       position: relative;
       bottom: 0.37em;
-      background-color: ${colors.green};
+      background-color: ${colors.brightGreen};
       transition: ${theme.transition};
       opacity: 0.5;
     }

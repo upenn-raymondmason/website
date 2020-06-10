@@ -15,6 +15,7 @@ const theme = {
     lightestSlate: '#020c1b',
     white: '#ffffff',
     lightWhite: '#ededed',
+    brightGreen: '#2ecc71',
     green: ACCENT,
     transGreen: hex2rgba(ACCENT, 0.07),
     shadowNavy: hex2rgba(DARK_BG, 0.7),
