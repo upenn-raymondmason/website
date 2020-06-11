@@ -10,7 +10,7 @@ skills:
   - MongoDB
 ---
 
-Hello! I'm Kevin, a software engineer based in Philadelphia, PA
+Hello! I'm Kevin, a software engineer based in Sunnyvale, CA studying in Philadelphia.
 
 I enjoy creating things that impact people.
 
