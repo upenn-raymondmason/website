@@ -6,7 +6,7 @@ import sr from '@utils/sr';
 import { srConfig } from '@config';
 import { FormattedIcon } from '@components/icons';
 import styled from 'styled-components';
-import { theme, mixins, media, Section, Button } from '@styles';
+import { theme, mixins, media, Section, Button, Heading } from '@styles';
 const { colors, fontSizes, fonts } = theme;
 
 const StyledContainer = styled(Section)`
@@ -132,7 +132,6 @@ const Projects = ({ data }) => {
   const revealTitle = useRef(null);
   const revealArchiveLink = useRef(null);
   const revealProjects = useRef([]);
-
   useEffect(() => {
     sr.reveal(revealTitle.current, srConfig());
     sr.reveal(revealArchiveLink.current, srConfig());
@@ -145,8 +144,9 @@ const Projects = ({ data }) => {
   const projectsToShow = showMore ? projects : firstSix;
 
   return (
-    <StyledContainer>
-      <StyledTitle ref={revealTitle}>Other Noteworthy Projects</StyledTitle>
+    <StyledContainer id="projects">
+      <Heading ref={revealTitle}>Some Things I&apos;ve Built</Heading>
+      <StyledTitle ref={revealTitle}>Projects</StyledTitle>
       <StyledArchiveLink to="/archive" ref={revealArchiveLink}>
         view the archive
       </StyledArchiveLink>
