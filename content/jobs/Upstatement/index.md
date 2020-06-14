@@ -7,4 +7,4 @@ range: 'June 2020 - Present'
 url: 'https://www.bloomberg.com/company/'
 ---
 
-- To be determined
+- Full stack work on the TOMS MMKT team

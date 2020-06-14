@@ -7,4 +7,4 @@ range: 'June - August 2019'
 url: 'https://www.apple.com/music/'
 ---
 
-- To be written
+- One of 30 student research fellows for international affairs

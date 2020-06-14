@@ -7,4 +7,4 @@ range: 'July - Dec 2018'
 url: 'https://starry.com/'
 ---
 
-- Not yet written
+- Security Researcher and Backend Analytics Engine

@@ -7,4 +7,4 @@ range: 'Jan 2019 - current'
 url: 'https://web.northeastern.edu/scout/'
 ---
 
-- Not yet written
+- Teach STAT 430 (probability) and CIS 550 (Graduate Databases)

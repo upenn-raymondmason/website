@@ -43,7 +43,7 @@ const mixins = {
     position: relative;
     transition: ${theme.transition};
     cursor: pointer;
-    padding:5px
+    padding: 5px;
     color: ${colors.darkNavy};
     &:hover,
     &:focus,
