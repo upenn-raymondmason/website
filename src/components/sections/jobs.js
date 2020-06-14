@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import PropTypes from 'prop-types';
 import sr from '@utils/sr';
+import { Link } from 'gatsby';
 import { srConfig } from '@config';
 import styled from 'styled-components';
 import { theme, mixins, media, Section, Heading } from '@styles';
@@ -154,13 +155,31 @@ const StyledJobDetails = styled.h5`
   }
 `;
 
+const StyledArchiveLink = styled(Link)`
+  ${mixins.inlineLink};
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 50px;
+  color: ${colors.lightWhite}
+  font-family: ${fonts.SFMono};
+  font-size: ${fontSizes.sm};
+  &:after {
+    bottom: 0.1em;
+  }
+`;
+
 const Jobs = ({ data }) => {
   const [activeTabId, setActiveTabId] = useState(0);
   const [tabFocus, setTabFocus] = useState(null);
   const tabs = useRef([]);
-
+  const revealTitle = useRef(null);
+  const revealArchiveLink = useRef(null);
   const revealContainer = useRef(null);
-  useEffect(() => sr.reveal(revealContainer.current, srConfig()), []);
+  useEffect(() => {
+    sr.reveal(revealArchiveLink.current, srConfig());
+    sr.reveal(revealTitle.current, srConfig());
+    sr.reveal(revealContainer.current, srConfig());
+  }, []);
 
   const focusTab = () => {
     if (tabs.current[tabFocus]) {
@@ -250,6 +269,9 @@ const Jobs = ({ data }) => {
             );
           })}
       </StyledTabs>
+      <StyledArchiveLink to="/archive" ref={revealArchiveLink}>
+        view the archive
+      </StyledArchiveLink>
     </StyledContainer>
   );
 };
