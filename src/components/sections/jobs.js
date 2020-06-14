@@ -6,6 +6,15 @@ import { srConfig } from '@config';
 import styled from 'styled-components';
 import { theme, mixins, media, Section, Heading } from '@styles';
 const { colors, fontSizes, fonts } = theme;
+const StyledTitle = styled.h4`
+  margin: 0 auto;
+  margin-top: 100px;
+  font-size: ${fontSizes.h3};
+  ${media.tablet`font-size: 24px;`};
+  a {
+    display: block;
+  }
+`;
 
 const StyledContainer = styled(Section)`
   position: relative;
@@ -269,6 +278,7 @@ const Jobs = ({ data }) => {
             );
           })}
       </StyledTabs>
+      <StyledTitle ref={revealTitle}>Work Archive</StyledTitle>
       <StyledArchiveLink to="/archive" ref={revealArchiveLink}>
         view the archive
       </StyledArchiveLink>
