@@ -4,7 +4,7 @@ title: ' Teaching Assistant'
 company: 'Penn Engineering'
 location: 'Philadelphia, PA'
 range: 'Jan 2019 - current'
-url: 'https://web.northeastern.edu/scout/'
+url: 'https://www.seas.upenn.edu/~cis550/'
 ---
 
 - Teach STAT 430 (probability) and CIS 550 (Graduate Databases)
