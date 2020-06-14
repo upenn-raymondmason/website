@@ -79,12 +79,12 @@ const StyledTabButton = styled.button`
     padding: 0 15px;
     text-align: center;
     border-left: 0;
-    border-bottom: 2px solid ${colors.lightWhite};
+    border-bottom: 2px solid ${colors.lightBlue};
     min-width: 120px;
   `};
   &:hover,
   &:focus {
-    background-color: ${colors.lightWhite};
+    background-color: ${colors.lightBlue};
   }
 `;
 const StyledHighlight = styled.span`

@@ -32,7 +32,7 @@ const StyledTable = styled.table`
 
     &:hover,
     &:focus {
-      background-color: ${colors.lightNavy};
+      background-color: #add8e6;
     }
   }
   th,
@@ -137,7 +137,7 @@ const ArchivePage = ({ location, data }) => {
                     date,
                     github,
                     external,
-                    ios,
+                    //ios,
                     android,
                     title,
                     tech,
@@ -184,7 +184,7 @@ const ArchivePage = ({ location, data }) => {
                               <FormattedIcon name="GitHub" />
                             </a>
                           )}
-                          {ios && (
+                          {/* {ios && (
                             <a
                               href={ios}
                               target="_blank"
@@ -192,7 +192,7 @@ const ArchivePage = ({ location, data }) => {
                               aria-label="Apple App Store Link">
                               <FormattedIcon name="AppStore" />
                             </a>
-                          )}
+                          )} */}
                           {android && (
                             <a
                               href={android}
@@ -220,7 +220,8 @@ ArchivePage.propTypes = {
 };
 
 export default ArchivePage;
-
+// ios
+// android
 export const pageQuery = graphql`
   {
     allMarkdownRemark(
@@ -235,8 +236,6 @@ export const pageQuery = graphql`
             tech
             github
             external
-            ios
-            android
             company
           }
           html

@@ -31,7 +31,7 @@ const mixins = {
     &:hover,
     &:active,
     &:focus {
-      color: ${colors.green};
+      color: ${colors.darkNavy};
       outline: 0;
     }
   `,
@@ -43,19 +43,19 @@ const mixins = {
     position: relative;
     transition: ${theme.transition};
     cursor: pointer;
-    color: ${colors.brightGreen};
+    padding:5px
+    color: ${colors.darkNavy};
     &:hover,
     &:focus,
     &:active {
-      color: ${colors.brightGreen};
-      background-color: ${colors.lightNavy};
-      padding: 5px;
+      color: ${colors.darkNavy};
+      background-color: ${colors.lightBlue};
       outline: 0;
       &:after {
         width: 100%;
       }
       & > * {
-        color: ${colors.brightGreen} !important;
+        color: ${colors.darkNavy} !important;
         transition: ${theme.transition};
       }
     }
@@ -66,7 +66,7 @@ const mixins = {
       height: 1px;
       position: relative;
       bottom: 0.37em;
-      background-color: ${colors.brightGreen};
+      background-color: ${colors.lightBlue};
       transition: ${theme.transition};
       opacity: 0.5;
     }
@@ -87,13 +87,13 @@ const mixins = {
     &:hover,
     &:focus,
     &:active {
-      background-color: ${colors.transGreen};
+      background-color: ${colors.lightBlue};
     }
     &:after {
       display: none !important;
     }
   `,
-
+  //  background-color: ${colors.slate};
   bigButton: css`
     color: ${colors.slate};
     background-color: transparent;
@@ -109,8 +109,7 @@ const mixins = {
     &:hover,
     &:focus,
     &:active {
-      background-color: ${colors.slate};
-      color: ${colors.lightWhite};
+      background-color: ${colors.lightBlue};
     }
     &:after {
       display: none !important;

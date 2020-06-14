@@ -5,15 +5,14 @@ import { srConfig, email } from '@config';
 import styled from 'styled-components';
 import { theme, mixins, media, Section, Heading } from '@styles';
 const { colors, fontSizes, fonts } = theme;
-
+//   a {
+//  ${mixins.inlineLink};
+//  color: ${colors.slate};
+//}
 const StyledContainer = styled(Section)`
   text-align: center;
   max-width: 600px;
   margin: 0 auto 100px;
-  a {
-    ${mixins.inlineLink};
-    color: ${colors.slate};
-  }
 `;
 const StyledHeading = styled(Heading)`
   display: block;
@@ -57,7 +56,6 @@ const Contact = ({ data }) => {
       <StyledTitle>{title}</StyledTitle>
 
       <div dangerouslySetInnerHTML={{ __html: html }} />
-
       <StyledEmailLink href={`mailto:${email}`} target="_blank" rel="nofollow noopener noreferrer">
         {buttonText}
       </StyledEmailLink>
