@@ -1,13 +1,13 @@
 ---
-date: '2016-11-16'
-title: 'Weather Widget'
-github: 'https://github.com/bchiang7/DemoWebApp'
-external: 'http://quiet-dusk-89245.herokuapp.com/'
+date: '2020-03-15'
+title: 'Signal Sleep Project'
+github: ''
+external: ''
 tech:
-  - Node
-  - Express
-  - EJS
-showInProjects: false
+  - nmpy
+  - python
+  - R
+showInProjects: true
 ---
 
-Simple weather app made with Node.js, Express, and Heroku. Utilized the OpenWeatherMap API and Google Maps API.
+Data analysis of student sleep patterns at Penn

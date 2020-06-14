@@ -15,4 +15,4 @@ company: 'Penn Engineering'
 showInProjects: true
 ---
 
-A complete Facebook replica. Find friends, chat friends, see a live newsfeed.
+A complete Facebook replica. Find friends, chat friends, see a live newsfeed. Project was conducted for NETS 212 class in collaboration with two other classmates. Hosted on EC2 instance.
