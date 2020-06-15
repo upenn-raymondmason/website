@@ -5,7 +5,7 @@ module.exports = {
   siteUrl: 'https://unruffled-almeida-425fec.netlify.app/#jobs',
   siteLanguage: 'en_US',
   googleAnalyticsID: 'UA-169226460-1',
-  googleVerification: '1kycbNbyeLB20b2u1aFw_qwtl1D4fF-NkpyO0LSQJRA',
+  googleVerification: 'yHnLmnUcQLpK-oL6VrCRAe3Qee2gtiSJYGZLDzKmtyw',
   name: 'Kevin Xu',
   location: 'Sunnyvale, CA',
   email: 'xukevinwork@gmail.com',
