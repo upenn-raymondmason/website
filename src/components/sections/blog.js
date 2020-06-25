@@ -18,10 +18,10 @@ const StyledGrid = styled.div`
 
   .blog {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
     grid-gap: 15px;
     position: relative;
-    ${media.desktop`grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));`};
+    ${media.desktop`grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));`};
   }
 `;
 const StyledBlogInner = styled.div`
@@ -150,9 +150,7 @@ const Blog = ({ data }) => {
                     <StyledBlogInner>
                       <header>
                         <StyledBlogHeader>
-                          <StyledFolder>
-                            <FormattedIcon name="Star" />
-                          </StyledFolder>
+                          <StyledFolder>{/* <FormattedIcon name="Star" /> */}</StyledFolder>
                           <StyledBlogLinks>
                             {external && (
                               <StyledIconLink
