@@ -19,6 +19,7 @@ const theme = {
     green: ACCENT,
     transGreen: hex2rgba(ACCENT, 0.07),
     shadowNavy: hex2rgba(DARK_BG, 0.7),
+    darkOrange: '#FE5000',
   },
 
   fonts: {
