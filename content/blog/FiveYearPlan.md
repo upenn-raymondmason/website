@@ -6,4 +6,4 @@ external: 'https://medium.com/@xukevinwork/my-five-year-vision-43b23c8ba0a2'
 showInProjects: true
 ---
 
-My interest and story in agriculture explained
+Why I'm interested in Agritech, and where I want to be in 10 years.

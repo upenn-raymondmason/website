@@ -16,7 +16,7 @@ const StyledContainer = styled(Section)`
 const StyledGrid = styled.div`
   margin-top: 50px;
 
-  .Blogs {
+  .blog {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     grid-gap: 15px;
