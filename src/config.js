@@ -2,7 +2,7 @@ module.exports = {
   siteTitle: 'Kevin Xu Personal Website',
   siteDescription: 'Learn more about Kevin Xu',
   siteKeywords: 'Kevin Xu',
-  siteUrl: 'www.xukevin.me',
+  siteUrl: 'https://xukevin.me',
   siteLanguage: 'en_US',
   googleAnalyticsID: 'UA-169226460-1',
   googleVerification: 'yHnLmnUcQLpK-oL6VrCRAe3Qee2gtiSJYGZLDzKmtyw',
