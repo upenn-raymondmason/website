@@ -1,8 +1,8 @@
 module.exports = {
-  siteTitle: 'Kevin Xu | Software Engineer',
-  siteDescription: 'Kevin Xu Description',
+  siteTitle: 'Kevin Xu Personal Website',
+  siteDescription: 'Learn more about Kevin Xu',
   siteKeywords: 'Kevin Xu',
-  siteUrl: 'https://unruffled-almeida-425fec.netlify.app/#jobs',
+  siteUrl: 'www.xukevin.me',
   siteLanguage: 'en_US',
   googleAnalyticsID: 'UA-169226460-1',
   googleVerification: 'yHnLmnUcQLpK-oL6VrCRAe3Qee2gtiSJYGZLDzKmtyw',
@@ -10,7 +10,7 @@ module.exports = {
   location: 'Sunnyvale, CA',
   email: 'xukevinwork@gmail.com',
   github: 'https://github.com/kevinxu12',
-  twitterHandle: '@bchiang7',
+  twitterHandle: '',
   socialMedia: [
     {
       name: 'GitHub',
