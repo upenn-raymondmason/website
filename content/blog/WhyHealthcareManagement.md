@@ -2,7 +2,7 @@
 date: '2018-06-15'
 title: 'Why Healthcare Management'
 github: ''
-external: 'Why Healthcare Management'
+external: 'https://medium.com/@xukevinwork/why-healthcare-management-f4452dc43133'
 showInProjects: true
 ---
 
